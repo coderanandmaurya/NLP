@@ -1,0 +1,27 @@
+# Tokenization of paragraphs/sentences
+import nltk
+nltk.download()
+
+paragraph = """National Anthem of India - "Jan Gan Man" Lyrics
+
+Jana gana mana adhinaayak jaya hai
+Bhaarat bhagya vidhaata
+Panjaab, sindh, gujraat, maraatha
+Draavid utkal banga
+Vindya, himaachal, yamuna, ganga
+Utchchhal jaldhi taranga
+Tab shubh naame jaage
+Tab shubh aashish maage
+Gaahe tab jay gaatha
+Jana gana mangal daayak jay he
+Bhaarat bhagya vidhaata
+Jaya hey...
+Jaya hey...
+Jaya hey...
+Jaya jaya jaya jaya hey..."""
+               
+# Tokenizing sentences
+sentences = nltk.sent_tokenize(paragraph)
+
+# Tokenizing words
+words = nltk.word_tokenize(paragraph)
