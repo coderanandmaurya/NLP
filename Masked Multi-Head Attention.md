@@ -1,12 +1,4 @@
 # 🎓 Lecture 2: Masked Multi-Head Attention (Decoder Deep Dive)
-
-## 🎬 Introduction (Hook)
-
-> **“Hi guys, my name is Nitesh, and welcome back to Day 11 of Deep Learning playlist!”**
-
-Aaj hum Transformers ka **decoder part** start kar rahe hain — and trust me, yeh thoda tricky hone wala hai 😄
-But don’t worry — hum step-by-step build karenge.
-
 ---
 
 ## 🔁 Quick Recap (Previous Progress)
